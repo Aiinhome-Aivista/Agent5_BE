@@ -20,7 +20,7 @@ class Settings(BaseSettings):
     APP_ENV: str = "development"
     DEBUG: bool = True
     API_PORT: int = 8000
-    CORS_ORIGINS: List[str] = ["http://localhost:3000", "http://localhost:5173"]
+    CORS_ORIGINS: List[str] = ["http://localhost:3000", "http://localhost:5173","http://localhost:5176"]
 
     # ----- Secrets (used to encrypt cloud credentials at rest) -----
     SECRET_KEY: str = "change-me-in-production-min-32-chars-of-entropy-xxxx"
