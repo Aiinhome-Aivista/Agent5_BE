@@ -4,6 +4,7 @@ from app.models.telemetry import TelemetrySnapshot, CostSnapshot, AnomalyEvent
 from app.models.chat_history import ChatSession, ChatMessage
 from app.models.cloud_account import CloudAccount
 from app.models.scan_run import ScanRun
+from app.models.user import User
 
 __all__ = [
     "Recommendation",
@@ -15,4 +16,5 @@ __all__ = [
     "ChatMessage",
     "CloudAccount",
     "ScanRun",
+    "User",
 ]

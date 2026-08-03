@@ -38,6 +38,6 @@ def init_db():
         telemetry,
         chat_history,
         cloud_account,
-        users,
+        user,
     )
     Base.metadata.create_all(bind=engine)
