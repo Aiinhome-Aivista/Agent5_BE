@@ -12,3 +12,4 @@ venv/
 htmlcov/
 analyse_results/
 data/
+chroma_data/
